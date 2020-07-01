@@ -17,3 +17,6 @@ undeploy:
 
 load_ddb:
 	bash scripts/load.sh
+
+describe_stream:
+	aws dynamodbstreams describe-stream --stream-arn `terraform output stream_arn`
