@@ -1,5 +1,5 @@
-.terraform
+.terraform/**
 .DS_Store
-planned_changes
+output/**
 terraform.tfstate*
 *.zip

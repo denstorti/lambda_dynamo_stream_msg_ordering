@@ -135,3 +135,4 @@ resource "aws_lambda_event_source_mapping" "example" {
     aws_dynamodb_table.example
   ]
 }
+
